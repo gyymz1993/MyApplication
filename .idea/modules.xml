@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidOne/AndroidOne.iml" filepath="$PROJECT_DIR$/AndroidOne/AndroidOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Skinresource/Skinresource.iml" filepath="$PROJECT_DIR$/Skinresource/Skinresource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baselibrary/baselibrary.iml" filepath="$PROJECT_DIR$/baselibrary/baselibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coustomview/coustomview.iml" filepath="$PROJECT_DIR$/coustomview/coustomview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framelibrary/framelibrary.iml" filepath="$PROJECT_DIR$/framelibrary/framelibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maudiopalymodule/maudiopalymodule.iml" filepath="$PROJECT_DIR$/maudiopalymodule/maudiopalymodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oneCore/oneCore.iml" filepath="$PROJECT_DIR$/oneCore/oneCore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqllibrary/sqllibrary.iml" filepath="$PROJECT_DIR$/sqllibrary/sqllibrary.iml" />
+    </modules>
+  </component>
+</project>

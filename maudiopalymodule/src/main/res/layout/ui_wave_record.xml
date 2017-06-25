@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:clipToPadding="true"
+              android:fitsSystemWindows="true"
+              android:orientation="vertical">
+
+    <View
+        style="@style/limit_line"
+        android:background="@color/colorPrimaryDark"/>
+
+    <com.gyymz.audio.test.WaveSurfaceView
+        android:id="@+id/wavesfv"
+        android:layout_width="match_parent"
+        android:layout_height="250dip"
+        android:background="#2a2b2f"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wavesfv">
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/y20"
+            android:layout_marginTop="@dimen/y20"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:text="00:00"
+            android:textSize="30sp"/>
+
+        <com.gyymz.audio.test.RecordAnimationView
+            android:id="@+id/switchbtn"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:layout_below="@+id/status"
+            android:layout_centerInParent="true"
+            android:text="开始录音"/>
+
+        <TextView
+            android:id="@+id/tip_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/switchbtn"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="点击开始录制"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

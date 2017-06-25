@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yangshao.loading.BaseLoadingLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loading"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/id_btn_dialog"
+        android:background="@color/colorPrimaryDark"
+        android:visibility="visible"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ContentView"/>
+
+</com.yangshao.loading.BaseLoadingLayout>

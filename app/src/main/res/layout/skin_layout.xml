@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/theme_bg"
+    android:id="@+id/linearlayout_id"
+    >
+
+    <ImageView
+        android:id="@+id/id_btn"
+        android:layout_width="match_parent"
+        android:layout_height="20dip"
+        android:src="@drawable/search_background"
+        />
+
+    <TextView
+        android:id="@+id/id_btn1"
+        android:layout_below="@+id/id_btn"
+        android:layout_width="match_parent"
+        android:layout_height="20dip"
+        android:text="我是主题1"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:background="@color/theme_bg"
+        />
+
+    <Button
+        android:id="@+id/id_btn2"
+        android:layout_below="@+id/id_btn1"
+        android:onClick="skin"
+        android:layout_width="match_parent"
+        android:layout_height="25dip"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:text="切换主题"
+        android:background="@color/theme_bg"
+        />
+
+    <Button
+        android:id="@+id/id_btn3"
+        android:layout_below="@+id/id_btn2"
+        android:onClick="skin1"
+        android:layout_width="match_parent"
+        android:layout_height="25dip"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:text="恢复默认"
+        android:background="@color/theme_bg"
+        />
+
+    <Button
+        android:onClick="skin2"
+        android:layout_width="match_parent"
+        android:layout_height="25dip"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:text="页面跳转"
+        android:background="@color/theme_bg"
+        />
+</LinearLayout>

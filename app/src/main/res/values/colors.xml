@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="gray">#898989</color>
+    <color name="background">#f2f2f2</color>
+
+    <color name="divider_left_bg">#ffacacac</color>
+    <color name="divider_right_bg">#fffafafa</color>
+    <color name="dislike_line_color">#ff252525</color>
+    <color name="theme_bg">#fff85959</color>
+
+    <color name="black_18">#181818</color>
+
+    <!-- 分割线的颜色 -->
+    <color name="limit_line1">#dddddd</color>
+    <color name="main_btn_">#e91b7d</color>
+    <color name="lucency">#00000000</color>
+    <!-- 半透明白色 -->
+    <color name="lucency_white">#AAFFFFFF</color>
+    <color name="main_press">#c82472</color>
+
+    <color name="main_btn_dis">#a0a0a0</color>
+
+    <!-- 白色 -->
+    <color name="white">#FFFFFF</color>
+
+    <!-- 主色 -->
+    <color name="main">#2a2b2f</color>
+    <color name="lucency_black2">#33000000</color>
+
+    <color name="text2">#444444</color>
+
+    <drawable name="waveform_unselected">#106072</drawable>
+    <drawable name="waveform_unselected_bkgnd_overlay">#bdbcbb</drawable>
+
+    <color name="waveform_unselected">#195a72</color>
+    <color name="waveform_unselected_bkgnd_overlay">#0a242d</color>
+
+
+
+    <color name="waveform_selected">#33b5e5</color>
+
+    <color name="timecode_shadow">#aa000000</color>
+
+    <color name="grid_line">#66ffffff</color>
+
+    <color name="selection_border">#ffffff</color>
+
+    <color name="playback_indicator">#ffff66</color>
+
+    <color name="timecode">#ddffffdd</color>
+
+    <drawable name="grid_line">#ee01a9a9</drawable>
+</resources>

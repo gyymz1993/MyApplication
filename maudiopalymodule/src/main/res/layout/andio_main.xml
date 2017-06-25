@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/title_layout"/>
+
+
+    <com.gyymz.audio.utils.WaveSurfaceView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/id_title_layout"
+        android:id="@+id/initaudio_view"
+        android:layout_width="fill_parent"
+        android:layout_height="310dp"
+        />
+
+
+    <LinearLayout
+        android:layout_below="@id/initaudio_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/foot_layout"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

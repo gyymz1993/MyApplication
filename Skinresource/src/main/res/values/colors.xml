@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#25fd04</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="divider_left_bg">#ff000000</color>
+    <color name="divider_right_bg">#ff505050</color>
+    <color name="dislike_line_color">#ff000000</color>
+    <color name="theme_bg">#ff000000</color>
+
+</resources>
